@@ -1,0 +1,11 @@
+# Büyük Veri Dosyalarını Hariç Bırakma
+# Veri mühendisliği projelerinde veri dosyaları genellikle depoya eklenmez.
+data/*.csv
+
+# PySpark cache ve geçici dosyaları
+.ipynb_checkpoints/
+__pycache__/
+
+# Python Sanal Ortamları (Gerek olmasa da iyi bir alışkanlık)
+venv/
+.env
